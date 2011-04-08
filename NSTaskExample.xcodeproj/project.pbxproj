@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53E765BB134FAF320063D52F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E765BA134FAF320063D52F /* Cocoa.framework */; };
+		53E765C5134FAF320063D52F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53E765C3134FAF320063D52F /* InfoPlist.strings */; };
+		53E765C8134FAF320063D52F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E765C7134FAF320063D52F /* main.m */; };
+		53E765CB134FAF330063D52F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 53E765C9134FAF320063D52F /* Credits.rtf */; };
+		53E765CE134FAF330063D52F /* NSTaskExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E765CD134FAF330063D52F /* NSTaskExampleAppDelegate.m */; };
+		53E765D1134FAF330063D52F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53E765CF134FAF330063D52F /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53E765B6134FAF320063D52F /* NSTaskExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTaskExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E765BA134FAF320063D52F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		53E765BD134FAF320063D52F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		53E765BE134FAF320063D52F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		53E765BF134FAF320063D52F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53E765C2134FAF320063D52F /* NSTaskExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSTaskExample-Info.plist"; sourceTree = "<group>"; };
+		53E765C4134FAF320063D52F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53E765C6134FAF320063D52F /* NSTaskExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTaskExample-Prefix.pch"; sourceTree = "<group>"; };
+		53E765C7134FAF320063D52F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53E765CA134FAF330063D52F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		53E765CC134FAF330063D52F /* NSTaskExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTaskExampleAppDelegate.h; sourceTree = "<group>"; };
+		53E765CD134FAF330063D52F /* NSTaskExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTaskExampleAppDelegate.m; sourceTree = "<group>"; };
+		53E765D0134FAF330063D52F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53E765B3134FAF320063D52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E765BB134FAF320063D52F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53E765AB134FAF320063D52F = {
+			isa = PBXGroup;
+			children = (
+				53E765C0134FAF320063D52F /* NSTaskExample */,
+				53E765B9134FAF320063D52F /* Frameworks */,
+				53E765B7134FAF320063D52F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53E765B7134FAF320063D52F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53E765B6134FAF320063D52F /* NSTaskExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53E765B9134FAF320063D52F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53E765BA134FAF320063D52F /* Cocoa.framework */,
+				53E765BC134FAF320063D52F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53E765BC134FAF320063D52F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53E765BD134FAF320063D52F /* AppKit.framework */,
+				53E765BE134FAF320063D52F /* CoreData.framework */,
+				53E765BF134FAF320063D52F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		53E765C0134FAF320063D52F /* NSTaskExample */ = {
+			isa = PBXGroup;
+			children = (
+				53E765CC134FAF330063D52F /* NSTaskExampleAppDelegate.h */,
+				53E765CD134FAF330063D52F /* NSTaskExampleAppDelegate.m */,
+				53E765CF134FAF330063D52F /* MainMenu.xib */,
+				53E765C1134FAF320063D52F /* Supporting Files */,
+			);
+			path = NSTaskExample;
+			sourceTree = "<group>";
+		};
+		53E765C1134FAF320063D52F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53E765C2134FAF320063D52F /* NSTaskExample-Info.plist */,
+				53E765C3134FAF320063D52F /* InfoPlist.strings */,
+				53E765C6134FAF320063D52F /* NSTaskExample-Prefix.pch */,
+				53E765C7134FAF320063D52F /* main.m */,
+				53E765C9134FAF320063D52F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53E765B5134FAF320063D52F /* NSTaskExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E765D4134FAF330063D52F /* Build configuration list for PBXNativeTarget "NSTaskExample" */;
+			buildPhases = (
+				53E765B2134FAF320063D52F /* Sources */,
+				53E765B3134FAF320063D52F /* Frameworks */,
+				53E765B4134FAF320063D52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTaskExample;
+			productName = NSTaskExample;
+			productReference = 53E765B6134FAF320063D52F /* NSTaskExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53E765AD134FAF320063D52F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 53E765B0134FAF320063D52F /* Build configuration list for PBXProject "NSTaskExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53E765AB134FAF320063D52F;
+			productRefGroup = 53E765B7134FAF320063D52F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53E765B5134FAF320063D52F /* NSTaskExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53E765B4134FAF320063D52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E765C5134FAF320063D52F /* InfoPlist.strings in Resources */,
+				53E765CB134FAF330063D52F /* Credits.rtf in Resources */,
+				53E765D1134FAF330063D52F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53E765B2134FAF320063D52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E765C8134FAF320063D52F /* main.m in Sources */,
+				53E765CE134FAF330063D52F /* NSTaskExampleAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53E765C3134FAF320063D52F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E765C4134FAF320063D52F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53E765C9134FAF320063D52F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E765CA134FAF330063D52F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		53E765CF134FAF330063D52F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E765D0134FAF330063D52F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53E765D2134FAF330063D52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		53E765D3134FAF330063D52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		53E765D5134FAF330063D52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTaskExample/NSTaskExample-Prefix.pch";
+				INFOPLIST_FILE = "NSTaskExample/NSTaskExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53E765D6134FAF330063D52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTaskExample/NSTaskExample-Prefix.pch";
+				INFOPLIST_FILE = "NSTaskExample/NSTaskExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53E765B0134FAF320063D52F /* Build configuration list for PBXProject "NSTaskExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E765D2134FAF330063D52F /* Debug */,
+				53E765D3134FAF330063D52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E765D4134FAF330063D52F /* Build configuration list for PBXNativeTarget "NSTaskExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E765D5134FAF330063D52F /* Debug */,
+				53E765D6134FAF330063D52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53E765AD134FAF320063D52F /* Project object */;
+}
