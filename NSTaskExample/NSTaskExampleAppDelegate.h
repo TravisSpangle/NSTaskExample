@@ -11,8 +11,13 @@
 @interface NSTaskExampleAppDelegate : NSObject <NSApplicationDelegate> {
 @private
     NSWindow *window;
+    
+    IBOutlet NSTextField *pathToList;
+    IBOutlet NSTextField *displayDirectory;
 }
 
 @property (assign) IBOutlet NSWindow *window;
+
+- (IBAction)getPath:(id)sender;
 
 @end

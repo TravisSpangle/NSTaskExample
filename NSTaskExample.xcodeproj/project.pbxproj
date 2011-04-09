@@ -278,6 +278,7 @@
 				53E765D6134FAF330063D52F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

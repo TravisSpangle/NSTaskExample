@@ -17,4 +17,12 @@
     // Insert code here to initialize your application
 }
 
+- (IBAction)getPath:(id)sender
+{
+    NSLog(@"%s\n\tPathValue:%@",__PRETTY_FUNCTION__,[pathToList stringValue]);
+    
+    [displayDirectory setStringValue:@"See This"];
+
+}
+
 @end
