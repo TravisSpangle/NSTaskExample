@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53B4BD3A135382D60098E0BF /* Lecture 2 Homework.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 53B4BD39135382D60098E0BF /* Lecture 2 Homework.rtf */; };
 		53E765BB134FAF320063D52F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E765BA134FAF320063D52F /* Cocoa.framework */; };
 		53E765C5134FAF320063D52F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53E765C3134FAF320063D52F /* InfoPlist.strings */; };
 		53E765C8134FAF320063D52F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E765C7134FAF320063D52F /* main.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53B4BD39135382D60098E0BF /* Lecture 2 Homework.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Lecture 2 Homework.rtf"; sourceTree = "<group>"; };
 		53E765B6134FAF320063D52F /* NSTaskExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTaskExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E765BA134FAF320063D52F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		53E765BD134FAF320063D52F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -93,6 +95,7 @@
 		53E765C1134FAF320063D52F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				53B4BD39135382D60098E0BF /* Lecture 2 Homework.rtf */,
 				53E765C2134FAF320063D52F /* NSTaskExample-Info.plist */,
 				53E765C3134FAF320063D52F /* InfoPlist.strings */,
 				53E765C6134FAF320063D52F /* NSTaskExample-Prefix.pch */,
@@ -152,6 +155,7 @@
 				53E765C5134FAF320063D52F /* InfoPlist.strings in Resources */,
 				53E765CB134FAF330063D52F /* Credits.rtf in Resources */,
 				53E765D1134FAF330063D52F /* MainMenu.xib in Resources */,
+				53B4BD3A135382D60098E0BF /* Lecture 2 Homework.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
