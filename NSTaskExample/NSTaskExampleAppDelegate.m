@@ -10,7 +10,7 @@
 
 @implementation NSTaskExampleAppDelegate
 
-@synthesize window;
+@synthesize window, pathToList, displayDirectory;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {

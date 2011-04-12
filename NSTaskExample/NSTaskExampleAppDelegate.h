@@ -17,6 +17,8 @@
 }
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSTextField *pathToList;
+@property (assign) IBOutlet NSTextField *displayDirectory;
 
 - (IBAction)getPath:(id)sender;
 
