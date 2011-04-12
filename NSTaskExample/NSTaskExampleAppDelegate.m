@@ -30,8 +30,7 @@
     [lsCommand setArguments:lsArgs];
     
     //creating pipe object and file handle to collect command outoput 
-    NSPipe *pipe;
-    pipe = [NSPipe pipe];
+    NSPipe *pipe = [[NSPipe alloc] init];
     [lsCommand setStandardOutput: pipe];
     
     NSFileHandle *file;
@@ -43,11 +42,16 @@
 
     //collect output
     NSString *output;
-    output = [[[NSString alloc] initWithData: [file readDataToEndOfFile] encoding: NSUTF8StringEncoding] autorelease];
+    output = [[NSString alloc] initWithData: [file readDataToEndOfFile] encoding: NSUTF8StringEncoding];
     
     //display on text field
     [displayDirectory setStringValue:output];
+    
+    //clean up memmory 
     [lsCommand release];
+    [output release];
+    [pipe release];
+
 }
 
 @end
